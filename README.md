@@ -28,10 +28,10 @@ https://www.jetbrains.com/webstorm/
 ## command
   - ng new <project-name>
   - ng generate <object> ใช้สำหรับ สร้าง object ที่ต้องการ
-  -  ng generate class models/user
-  -  ng generate pipe myPipe
-  -  ng generate component other 
-  -  ng g service services/user
+  - ng generate class models/user
+  - ng generate pipe myPipe
+  - ng generate component other 
+  - ng g service services/user
 
 
 
