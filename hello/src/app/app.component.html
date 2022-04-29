@@ -11,4 +11,9 @@
     <p *ngIf="name; else showDefault">Hi 2 {{name}}</p>
     <ng-template #showDefault>Please Enter Your Name 2</ng-template>
 
+
+    <p>Use NgFor</p>
+    <div *ngFor="let item of listsData">{{item.fname}}</div>
+    
+
 </form>

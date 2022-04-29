@@ -8,6 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'hello';
   name = 'Thitinun.r'
+  listNames = []
+  listsData = [
+    {id: 1,fname: "thitinun.R"},
+    {id: 2,fname: "apakorn.P"},
+  ]
 
   doShowName(newName: string) {
     // let val = (event.target as HTMLInputElement).value
