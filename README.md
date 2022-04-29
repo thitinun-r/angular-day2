@@ -15,6 +15,11 @@ https://angular.io/guide/built-in-directives
 https://angular.io/api/common/NgIf
 https://angular.io/guide/pipes
 
+
+https://www.typescriptlang.org/docs/handbook/2/classes.html
+
+
+
 https://ngrx.io/
 
 Editor
@@ -23,6 +28,8 @@ https://www.jetbrains.com/webstorm/
 ## command
   - ng new <project-name>
   - ng generate <object> ใช้สำหรับ สร้าง object ที่ต้องการ
+
+
 
 
 ## note
@@ -40,8 +47,11 @@ app.module.ts
 index.html -> main.ts -> app.module.ts
 
 {{}} --> variable
+
 (XXX)  --> event onXXX
+
 [XXX]  --> properties ของ UI 
+
 [(ngModel)] --> 2-ways binding
 
 

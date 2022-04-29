@@ -16,7 +16,8 @@ export class AppComponent {
   ]
 
   parentName1 = {id:1,fname:"Thitinun.R"}
-  parentName = new User(1,"Thitinun.R")
+  // parentName2 = new User(1,"Thitinun.R") // class style
+  parentName: User = {id:1,fname:"Thitinun.R"} // interface  style
 
   onResponse(event: User) {
     console.info("response to parent")
