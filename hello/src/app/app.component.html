@@ -2,7 +2,7 @@
 {{title}}
 
 <form>
-    <label>Name : </label><input type="text" #myname (input)="doShowName(myname.value)" />
+    <label>Name : </label><input [value]="name" type="text" #inputName (input)="doShowName(inputName.value)" />
     <p>Please Enter Your Name</p>
     <p>Hi {{name}}</p>
 
