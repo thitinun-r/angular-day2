@@ -1,0 +1,35 @@
+<div class="container" class="border" max-width>
+  <div class="row" class="border-bottom">
+    <div class="col">
+      Todos
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <form class="row g-3">
+        <div class="col-auto">
+          <label for="inputTodo" class="visually-hidden">Todo</label>
+          <input type="text" name="inputTodo" [(ngModel)]="inputTodo" (ngModelChange)="inputTodo=$event"  class="form-control form-control-sm" />
+          
+        </div>
+        <div class="col-auto">
+          <input type="button" class="form-control form-control-sm" (click)="addTodo()" value="Add" />
+        </div>
+      </form>
+      <p class="fs-5">{{totalActive}} remaining out of {{totalTodo}} task</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <ul class="list-group">
+        <li (click)="toggleActive($event)"  *ngFor="let item of todos; let i = index" [attr.data-index]="i" class="list-group-item" [ngClass]="{'list-group-item' : true,'unActive':!item.active}" >{{item.message}}</li>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+
+</div>
