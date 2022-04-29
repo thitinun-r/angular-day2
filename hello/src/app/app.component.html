@@ -5,7 +5,10 @@
     <label>Name : </label><input [value]="name" type="text" #inputName (input)="doShowName(inputName.value)" />
     <br /><label>Name3 2-ways binding : </label><input  name="aaa" [(ngModel)]="name" />
     <br /><label>Name3 2-ways binding : </label><input  name="bbb" [ngModel]="name" (ngModelChange)="name=$event" />
-    <p>Please Enter Your Name</p>
-    <p>Hi {{name}}</p>
+    <p *ngIf="!name">Please Enter Your Name</p>
+    <p *ngIf="name">Hi {{name}}</p>
+
+    <p *ngIf="name; else showDefault">Hi 2 {{name}}</p>
+    <ng-template #showDefault>Please Enter Your Name 2</ng-template>
 
 </form>
