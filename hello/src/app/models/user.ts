@@ -3,4 +3,5 @@ export interface User {
     id:number
     fname:string
     age?: number
+
 }

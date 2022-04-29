@@ -32,6 +32,7 @@ https://www.jetbrains.com/webstorm/
   - ng generate pipe myPipe
   - ng generate component other 
   - ng g service services/user
+  - ng g guard guards/authen --> middleware
 
 
 
@@ -61,6 +62,7 @@ index.html -> main.ts -> app.module.ts
 
 ## vscode plug-in
 Angular Snippets (Version 13)
+
 Angular Language Service
 
 

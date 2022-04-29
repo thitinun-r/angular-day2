@@ -9,13 +9,15 @@ import { AppComponent } from './app.component';
 import { OtherComponent } from './other/other.component';
 import { MyPipePipe } from './my-pipe.pipe';
 import { UserComponent } from './user/user.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OtherComponent,
     MyPipePipe,
-    UserComponent
+    UserComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
