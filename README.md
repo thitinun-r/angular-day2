@@ -28,6 +28,9 @@ https://www.jetbrains.com/webstorm/
 ## command
   - ng new <project-name>
   - ng generate <object> ใช้สำหรับ สร้าง object ที่ต้องการ
+  -  ng generate class models/user
+  -  ng generate pipe myPipe
+  -  ng generate component other 
 
 
 
@@ -58,3 +61,6 @@ index.html -> main.ts -> app.module.ts
 ## vscode plug-in
 Angular Snippets (Version 13)
 Angular Language Service
+
+
+https://reactrouter.com/
