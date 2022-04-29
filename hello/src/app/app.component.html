@@ -2,7 +2,7 @@
 {{title}}
 
 <h3>Parent Componet</h3>
-<app-other [name]="parentName"></app-other>
+<app-other [name]="parentName" (changeNameEvent)="onResponse($event)"></app-other>
 
 <br />
 <br />

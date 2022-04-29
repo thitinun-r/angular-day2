@@ -16,6 +16,11 @@ export class AppComponent {
 
   parentName = {id:1,fname:"Thitinun.R"}
 
+  onResponse(event: any) {
+    console.info("response to parent")
+    console.table(event)
+  }
+
   doShowName(newName: string) {
     // let val = (event.target as HTMLInputElement).value
     console.info(newName)
