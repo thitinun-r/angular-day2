@@ -1,6 +1,19 @@
 <h2>Hello Angular 13</h2>
 {{title}}
 
+<h3>Parent Componet</h3>
+<app-other [name]="parentName"></app-other>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<hr/>
 <form>
     <label>Name : </label><input [value]="name" type="text" #inputName (input)="doShowName(inputName.value)" />
     <br /><label>Name3 2-ways binding : </label><input  name="aaa" [(ngModel)]="name" />
