@@ -2,7 +2,11 @@
 {{title}}
 
 <h3>Parent Componet</h3>
-<app-other [name]="parentName" (changeNameEvent)="onResponse($event)"></app-other>
+<a routerLink="/">Main</a> | <a routerLink="/other">Other</a> | <a routerLink="/user">Userpage</a>
+
+<router-outlet></router-outlet>
+
+<!-- <app-other [name]="parentName" (changeNameEvent)="onResponse($event)"></app-other>
 
 <br />
 <br />
@@ -29,4 +33,4 @@
     <div *ngFor="let item of listsData">{{item.fname}}</div>
     
 
-</form>
+</form> -->
