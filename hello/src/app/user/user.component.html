@@ -1,3 +1,5 @@
 <p>user works!</p>
 
 <button (click)="gotoMain()">back to main</button>
+
+<div *ngFor="let item of users">{{item.id}}. {{item.username}} - {{item.name}}</div>
