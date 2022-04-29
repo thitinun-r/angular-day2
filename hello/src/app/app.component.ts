@@ -9,9 +9,9 @@ export class AppComponent {
   title = 'hello';
   name = 'Thitinun.r'
 
-  doShowName(event: Event) {
-    let val = (event.target as HTMLInputElement).value
-    console.info(val)
-    this.name = val
+  doShowName(newName: string) {
+    // let val = (event.target as HTMLInputElement).value
+    console.info(newName)
+    this.name = newName
   }
 }

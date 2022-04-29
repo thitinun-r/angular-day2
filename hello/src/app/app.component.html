@@ -2,7 +2,7 @@
 {{title}}
 
 <form>
-    <label>Name : </label><input type="text" (input)="doShowName($event)" />
+    <label>Name : </label><input type="text" #myname (input)="doShowName(myname.value)" />
     <p>Please Enter Your Name</p>
     <p>Hi {{name}}</p>
 
