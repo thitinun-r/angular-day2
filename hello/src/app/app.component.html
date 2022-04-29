@@ -1,2 +1,9 @@
 <h2>Hello Angular 13</h2>
 {{title}}
+
+<form>
+    <label>Name : </label><input type="text" (input)="doShowName($event)" />
+    <p>Please Enter Your Name</p>
+    <p>Hi {{name}}</p>
+
+</form>
