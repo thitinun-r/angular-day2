@@ -15,6 +15,8 @@ https://angular.io/guide/built-in-directives
 https://angular.io/api/common/NgIf
 https://angular.io/guide/pipes
 
+https://ngrx.io/
+
 Editor
 https://www.jetbrains.com/webstorm/
 
