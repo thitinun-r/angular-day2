@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { UserService } from '../services/user.service';
 
 @Component({
   selector: 'app-user',
@@ -8,13 +9,14 @@ import { Router } from '@angular/router';
 })
 export class UserComponent implements OnInit {
 
-  constructor(private route:Router) { }
+  constructor(private route:Router,private userService:UserService) { }
 
   gotoMain() {
     this.route.navigate(['/'])
   }
 
   ngOnInit(): void {
+    this.userService.getAllUsers()
   }
 
 }

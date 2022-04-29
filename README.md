@@ -14,7 +14,7 @@ https://angular.io/guide/binding-syntax
 https://angular.io/guide/built-in-directives
 https://angular.io/api/common/NgIf
 https://angular.io/guide/pipes
-
+https://angular.io/guide/http
 
 https://www.typescriptlang.org/docs/handbook/2/classes.html
 
@@ -31,6 +31,7 @@ https://www.jetbrains.com/webstorm/
   -  ng generate class models/user
   -  ng generate pipe myPipe
   -  ng generate component other 
+  -  ng g service services/user
 
 
 
